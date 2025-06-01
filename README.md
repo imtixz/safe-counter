@@ -9,4 +9,6 @@ note:
 2. -b means bind to port
 
 todos:
-1. need to write test
+1. post body validation with pydantic
+2. write some tests
+3. write some benchmarks

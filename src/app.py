@@ -18,6 +18,7 @@ def get_counter(name: str) -> dict[str, int | str]:
 @app.route('/counter', methods=['POST'])
 def set_counter() -> dict[str, int | str]:
 
+    # TODO: use pydantic for body validation
     data = request.get_json()
     name = data.get('name', 'default')
     x = data.get('increment', 1)
