@@ -10,5 +10,7 @@ note:
 
 todos:
 1. post body validation with pydantic
-2. write some tests
-3. write some benchmarks
+2. make it async (sync IO can be bottleneck)
+3. think deeper about error handling
+4. write some tests
+5. write some benchmarks
